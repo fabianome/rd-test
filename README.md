@@ -1,4 +1,4 @@
-# rd-test
+# Work Description
 RD Test - UX Designer
 
 In this test the porpouse is to create a case study page for RD Station clients. 
