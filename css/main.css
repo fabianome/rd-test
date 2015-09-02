@@ -1,0 +1,206 @@
+
+/* MAIN BOOSTRAP OVERRIDE */
+body {
+	color: #333;
+}
+h2 {
+	text-transform: uppercase;
+	color: #856D4E;
+	font-weight: 200;
+	border-left: 4px solid #856D4E;
+	padding-left: 20px;
+	margin-bottom: 40px;
+}
+h3 {
+	margin: 0 0 10px;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+h4 {
+	font-size: .9em;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+p {
+	font-weight: 200;
+	font-size: 1.1em;
+	line-height: 1.8em;
+	margin-bottom: 30px;
+}
+a {
+	color: #3686AF;
+}
+.btn-primary {
+	margin-bottom: 5px;
+	background: #3686AF;
+}
+.btn-primary:hover {
+	text-decoration: none;
+}
+.btn-secondary {
+	background: #856D4E;
+	color: #FFF;
+}
+.btn-secondary:hover {
+	color: #FFF;
+	opacity: .8;
+}
+.jumbotron {
+	background: #506E82;
+	color: #FFF;
+	margin-bottom: 0;
+}
+.jumbotron * {
+	color: #FFF;
+}
+.row {
+	padding: 60px 0;
+	margin: 0;
+}
+
+/* GENERIC CLASSES */
+.border {
+	border: 1px solid #BCC8D1;
+	padding: 40px ;
+}
+.border-bottom {
+	border-bottom: 1px solid #BCC8D1;
+}
+.p-ident{
+	padding-left: 24px;
+}
+.no-margin {
+	margin: 0;
+}
+.jumbotron h1 {
+	font-size: 2.8em;
+	line-height: 1.4em;
+	font-weight: 200;
+}
+.featured-text {
+	display: block;
+	font-size: 5em;
+	font-weight: 100;
+}
+.image-description {
+	display: block;
+	color: #999;
+	margin-top: 15px;
+	font-style: italic;
+	font-size: .9em;
+}
+.shadow-box {
+	background: #FFF;
+	padding: 15px;
+	box-shadow: 0 1px 2px #999;
+}
+.bg-grey {
+	background: #f0f0f0;
+}
+.bg-white {
+	background: #fff;
+}
+.logo-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 30px;
+}
+
+/* HEADER CASES */
+.header-cases {
+	padding: 40px 0 0;
+	color: #856D4E;
+}
+.header-cases p{
+	line-height: 1.6em;
+	margin: 0 0 40px;
+}
+.header-filters {
+	margin: 0 0 40px;
+}
+.header-filters p {
+	font-size: .85em;
+	margin-bottom: 5px;
+}
+
+/* BLOCKQUOTE */
+blockquote {
+	border: none;
+	text-align: center;
+	color: #506E82;
+}
+blockquote p:before {
+	width: 20px;
+	height: 20px;
+	content: "";
+	display: block;
+	background: url('../images/quotemark-1.svg') no-repeat;
+	margin: 0 auto 30px;
+}
+blockquote p:after {
+	width: 20px;
+	height: 20px;
+	content: "";
+	display: block;
+	background: url('../images/quotemark-2.svg') no-repeat;
+	margin: 30px auto 50px;
+}
+.jumbotron blockquote p:before {
+	background: url('../images/quotemark-3.svg') no-repeat;
+}
+.jumbotron blockquote p:after {
+	background: url('../images/quotemark-4.svg') no-repeat;
+}
+blockquote footer {
+	color: #506E82;
+	line-height: 1.6em;
+}
+blockquote footer:before {
+	content: "";
+}
+blockquote footer cite {
+	font-style: normal;
+	opacity: .7;
+}
+blockquote .author-pic {
+	display: block;
+	margin: 0 auto 10px;
+}
+
+/* ORIGINAL FROM RD WEBSITE */
+header{
+	background-color:#846d50;
+	color:#dad3cb;
+	border-top-color:#6a5740;
+	display:block;
+	height:auto;
+	width:auto;
+	overflow:visible;
+	border-top-width:3px;
+	border-top-style:solid;
+	padding:30px 0 30px;
+	margin-top: 50px;
+}
+header .row {
+	padding: 0;
+	margin: 0 -15px;
+}
+header .nav-pills > li > a {
+	color: #e5e9ed;
+	    font-weight: 400;
+    font-size: 1.1em;
+}
+header .nav-pills > li.active > a,
+header .nav-pills > li.active > a:HOVER, 
+header .nav-pills > li > a:hover {
+	background: none;
+    color: #fff;
+}
+
+header .nav-pills > li.active > a {
+	Font-weight: bold;
+}
