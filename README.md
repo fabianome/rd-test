@@ -5,7 +5,7 @@ In this test the purpose was to create a case study page for RD Station clients.
 
 Target: New clients.
 
-What I've tried to do is the following:
+What I've tried reach:
 
 * Create a structure of reading with images and texts, in order to illustrate and keep the user on the page;
 * Put the quotes of the client in the middle of these texts, because it's easy to understand and put value on the product;
@@ -14,6 +14,7 @@ What I've tried to do is the following:
 * Finish the page with a call to action for the product, the main objective of the page.
 
 Plus: 
+
 To start any project I like to use a quick way to make wireframes and test the design. In this case the wireframes was enough with paper and pencil, then I jump to Sketch to make the design and organize the informations.
 
 There is a folder called "Assets", illustrating this process with two images:
